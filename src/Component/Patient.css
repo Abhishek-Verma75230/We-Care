@@ -1,0 +1,77 @@
+/* src/components/PatientPage.css */
+.patient-container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f3f4f6;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.appointment-button {
+    background-color: #34c759;
+}
+
+.appointment-button:hover {
+    background-color: #2aa44f;
+}
+
+.hospital-list {
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.hospital-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+/* Animations */
+.alert-enter {
+    opacity: 0.01;
+}
+
+.alert-enter-active {
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+}
+
+.alert-exit {
+    opacity: 1;
+}
+
+.alert-exit-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}
